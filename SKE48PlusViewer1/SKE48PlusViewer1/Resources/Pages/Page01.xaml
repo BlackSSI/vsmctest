@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SKE48PlusViewer1.Resources.Pages.Page01"
+             xmlns:sys="clr-namespace:System;assembly=SKE48PlusViewer1"
+             Title="MemberList">
+  <Grid>
+    <ListView x:Name ="MemberList" ItemsSource="{Binding Members}" ItemSelected="OnSelected">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <ViewCell.View>
+              <Label Text="{Binding FullName}" />
+            </ViewCell.View>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </Grid>
+</ContentPage> 
