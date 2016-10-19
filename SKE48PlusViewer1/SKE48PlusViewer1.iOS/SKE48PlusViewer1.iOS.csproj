@@ -98,8 +98,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork@2x" />
-    <None Include="ios_development.cer" />
     <None Include="packages.config" />
+    <None Include="XamarinBuild1.p12" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
