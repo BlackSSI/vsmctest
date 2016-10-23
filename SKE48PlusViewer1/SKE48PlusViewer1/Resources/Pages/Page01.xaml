@@ -10,7 +10,7 @@
         <DataTemplate>
           <ViewCell>
             <ViewCell.View>
-              <Label Text="{Binding FullName}さん" />
+              <Label Text="{Binding FullName}" />
             </ViewCell.View>
           </ViewCell>
         </DataTemplate>
