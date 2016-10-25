@@ -24,6 +24,13 @@ namespace SKE48PlusViewer1
             AuthorizeToken = token;
         }
 
+        public void SetRedirectUrl(string url)
+        {
+            if (url != "")
+            {
+                RedirectUrl = new Uri(url);
+            }
+        }
         public string ClientId { private set; get; }
         public string ClientSecret { private set; get; }
         public string Scope { private set; get; }
