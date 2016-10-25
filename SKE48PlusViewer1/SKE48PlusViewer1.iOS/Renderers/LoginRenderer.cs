@@ -1,16 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 using Xamarin.Auth;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 using SKE48PlusViewer1.Resources.Pages;
 using SKE48PlusViewer1.iOS.Renderers;
-
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
 
 using System.Net;
 using System.Net.Sockets;
@@ -76,4 +69,5 @@ namespace SKE48PlusViewer1.iOS.Renderers
             }
         }
     }
+}
  
