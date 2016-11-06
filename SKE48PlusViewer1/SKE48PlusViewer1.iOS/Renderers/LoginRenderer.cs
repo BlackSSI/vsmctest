@@ -48,6 +48,7 @@ namespace SKE48PlusViewer1.iOS.Renderers
 
         void OnAuthenticationCompleted(object sender, AuthenticatorCompletedEventArgs e)
         {
+            //App.SuccessfulLoginAction.Invoke();
             UIAlertView alert = new UIAlertView()
             {
                 Title = "Šm”F"

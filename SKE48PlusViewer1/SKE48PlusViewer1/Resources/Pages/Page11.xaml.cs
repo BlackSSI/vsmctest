@@ -17,7 +17,8 @@ namespace SKE48PlusViewer1.Resources.Pages
         {
             //var detailPage = new Resources.Pages.Login();
             //this.Navigation.PushAsync(detailPage);
-            Navigation.PushModalAsync(new Login());
+            App.AppStatus._NavPage.PushAsync(new Login());
+            //Navigation.PushModalAsync(new Login());
         }
     }
 }

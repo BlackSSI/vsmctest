@@ -23,14 +23,16 @@ namespace SKE48PlusViewer1
         {
 
             var detailPage = new Resources.Pages.Page11();
-            this.Navigation.PushAsync(detailPage);
+            App.AppStatus._NavPage.PushAsync(detailPage);
+            //this.Navigation.PushAsync(detailPage);
         }
 
         public void Button_Page01_Clicked(object sender, EventArgs e)
         {
 
             var detailPage = new Resources.Pages.Page01();
-            this.Navigation.PushAsync(detailPage);
+            App.AppStatus._NavPage.PushAsync(detailPage);
+            //this.Navigation.PushAsync(detailPage);
         }
     }
 }

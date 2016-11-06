@@ -100,9 +100,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork@2x" />
-    <None Include="iOSBuildTest1.mobileprovision" />
     <None Include="packages.config" />
-    <None Include="XamarinBuild1.p12" />
+    <None Include="SKE48PlusViewerProfileDev.mobileprovision" />
+    <None Include="XamarinBuildTest1.p12" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />

@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Xamarin.Forms;
 
 namespace SKE48PlusViewer1.iOS
 {
@@ -20,12 +21,17 @@ namespace SKE48PlusViewer1.iOS
         //
         // You have 17 seconds to return from this method, or iOS will terminate your application.
         //
+        UIWindow window;
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            App.AppStatus.SetAuthentification();
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+            window = new UIWindow(UIScreen.MainScreen.Bounds);
+            window.RootViewController = App.AppStatus.GetMainPage().CreateViewController();
+            window.MakeKeyAndVisible();
 
-            return base.FinishedLaunching(app, options);
+            //return base.FinishedLaunching(app, options);
+            return true;
         }
     }
 }

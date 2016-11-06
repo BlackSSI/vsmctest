@@ -42,6 +42,7 @@
     <Compile Include="GoogleAuth.cs" />
     <Compile Include="GoogleOAuth2Settings.cs" />
     <Compile Include="GooglePlusAuth.cs" />
+    <Compile Include="Model\AppStatus.cs" />
     <Compile Include="Model\UserActivity.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
